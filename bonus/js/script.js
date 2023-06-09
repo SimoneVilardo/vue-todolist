@@ -50,6 +50,10 @@ createApp({
             this.tasks.push(obj);
 
             this.newTask = '';
+        },
+
+        editTask(index){
+            this.tasks[index].edit_enabled = !this.tasks[index].edit_enabled
         }
 
     },
