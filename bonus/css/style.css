@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.content, .text-center{
+    width: 70%;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: goldenrod;
+    border: 2px solid black;
+}
+
+.task-done{
+    text-decoration: line-through;
+}
+
+h1{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.list-unstyled li{
+    padding: 20px;
+    border-bottom: 2px solid black;
+}
+
+.input-group{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.input-field{
+    width: 85%;
+}
+
+.input-button{
+    width: 15%;
+}
+
+.input-task{
+    width: 100%;
+    padding: 5px 5px;
+}
